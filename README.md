@@ -18,11 +18,22 @@ Our system empowers individuals, restaurants, and smart homes to manage food eff
 An AI-powered, full-stack platform that:
 
 ✅ **Predicts expiry** of unpackaged or unlabeled foods using machine learning  
+✅ **Voice scan integration** for hands-free item addition via speech-to-text
 📲 **Sends SMS alerts** before items go bad (Twilio Integration)  
 🍽️ **Recommends recipes** based on expiring ingredients  
 📊 **Generates inventory reports** and eco-friendly suggestions
+🛒 **Generates smart grocery lists** based on your current inventory and consumption patterns  
 
 ---
+## 🧪 How It Works
+
+1. **Add items** manually, via barcode, or **voice scan** (speech-to-text)  
+2. **AI predicts expiry** (for fruits, veggies, non-labeled items)  
+3. **Receive alerts** via SMS before items expire  
+4. **Get recipe ideas** or suggestions to compost/donate  
+5. **If an item has expired, receive eco-friendly suggestions** such as using it as compost or fertilizer  
+6. **Track inventory health** with insightful reports  
+7. **Automatically generate grocery lists** to replenish essentials without overbuying
 
 ## 📁 Tech Stack
 
@@ -95,7 +106,7 @@ python app.py
 ## 🧑‍💻 Team & Credits
 
 
-1.GitHub: [@Stud-KK](https://github.com/Stud-KK)
+1.Komal Kalshetti
 2.Sanjana Mutkiri
 3.Aishwarya Kalshetti
 
