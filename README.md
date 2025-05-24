@@ -28,7 +28,7 @@ An AI-powered, full-stack platform that:
 ---
 ##  How It Works
 
-1. **Add items** manually, via barcode, or **voice scan** (speech-to-text)  
+1. **Add items** manually or  **voice scan** reducing manural effort(speech-to-text)  
 2. **AI predicts expiry** (for fruits, veggies, non-labeled items)  
 3. **Receive alerts** via SMS before items expire  
 4. **Get recipe ideas** or suggestions to compost/donate  
