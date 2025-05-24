@@ -57,7 +57,9 @@ An AI-powered, full-stack platform that:
 
 ---
 
-## 📸 Screenshots
+## 📸 App working flow
+![image](https://github.com/user-attachments/assets/74ff6b09-b8df-4a6f-822b-474915894e74)
+
 
 
 ## 🧰 Project Structure
