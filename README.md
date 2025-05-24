@@ -1,19 +1,19 @@
 # smartcity-foodexpiry-ai
 
-# 🌆 SmartCity Food Expiry AI 
+# 🌆SmartCity Food Expiry AI 
 
 **Revolutionizing food sustainability in smart cities with AI-powered expiry prediction, inventory alerts, and smart suggestions.**
 
 ---
 
-## 🚀 Why This Matters
+##  Why This Matters
 
 💡 **One-third of all food produced globally is wasted** — a problem we address using AI.  
 Our system empowers individuals, restaurants, and smart homes to manage food efficiently, reduce waste, and save money — all from a single app.
 
 ---
 
-## 🧠 What We Built
+## What We Built
 
 An AI-powered, full-stack platform that:
 
@@ -26,7 +26,7 @@ An AI-powered, full-stack platform that:
 🛒 **Generates smart grocery lists** based on your current inventory and consumption patterns  
 
 ---
-## 🧪 How It Works
+##  How It Works
 
 1. **Add items** manually, via barcode, or **voice scan** (speech-to-text)  
 2. **AI predicts expiry** (for fruits, veggies, non-labeled items)  
@@ -36,7 +36,7 @@ An AI-powered, full-stack platform that:
 6. **Track inventory health** with insightful reports  
 7. **Automatically generate grocery lists** to replenish essentials without overbuying
 
-## 📁 Tech Stack
+## Tech Stack
 
 | Layer       | Tools & Tech                                                                 |
 |-------------|------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ An AI-powered, full-stack platform that:
 
 
 
-## 🧰 Project Structure
+## Project Structure
 
 ```
 
