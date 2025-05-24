@@ -101,7 +101,7 @@ python app.py
 
 ---
 
-## 🧑‍💻 Team & Credits
+## Team & Credits
 
 
 1.Komal Kalshetti
