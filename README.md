@@ -19,10 +19,10 @@ An AI-powered, full-stack platform that:
 
 ✅ **Predicts expiry** of unpackaged or unlabeled foods using machine learning  
 ✅ **Voice scan integration** for hands-free item addition via speech-to-text
-
 📲 **Sends SMS alerts** before items go bad (Twilio Integration)  
 🍽️ **Recommends recipes** based on expiring ingredients  
 📊 **Generates inventory reports** and eco-friendly suggestions
+
 🛒 **Generates smart grocery lists** based on your current inventory and consumption patterns  
 
 ---
