@@ -1,0 +1,9 @@
+flask
+scikit-learn
+pandas
+numpy
+requests
+joblib
+mimesis
+xgboost
+catboost==1.2

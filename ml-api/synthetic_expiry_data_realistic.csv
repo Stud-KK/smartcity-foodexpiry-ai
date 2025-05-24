@@ -1,0 +1,501 @@
+product_name,storage_condition,item_condition_on_purchase,predicted_expiry_days
+ice cream,room temperature,fresh,1
+peach,freezer,near expiry,2
+beetroot,fridge,damaged pack,9
+guava,freezer,leaky pack,1
+tinda (apple gourd),freezer,minor defect,4
+palak (spinach),fridge,slightly bruised,3
+potato,fridge,leaky pack,3
+curd,fridge,leaky pack,1
+suran (yam),freezer,leaky pack,1
+lassi,fridge,overripe,1
+mint leaves,room temperature,fresh,3
+lady's finger (okra),freezer,minor defect,13
+dates (khajur),room temperature,damaged pack,21
+potato,room temperature,slightly bruised,6
+tinda (apple gourd),room temperature,slightly bruised,2
+coriander leaves,room temperature,discolorued,1
+bread,fridge,overripe,1
+brinjal (eggplant),fridge,minor defect,10
+spinach,freezer,near expiry,2
+methi (fenugreek leaves),freezer,sealed & intact,6
+fish,room temperature,fresh,1
+green chilli,freezer,slightly bruised,14
+lauki (bottle gourd),freezer,spoiled,1
+parwal (pointed gourd),fridge,spoiled,1
+jamun,room temperature,near expiry,1
+rava (semolina),freezer,sealed & intact,74
+lady's finger (okra),room temperature,sealed & intact,8
+blueberry,freezer,near expiry,2
+milk,freezer,damaged pack,3
+brinjal (eggplant),freezer,spoiled,1
+lady's finger (okra),room temperature,minor defect,6
+suji (semolina),freezer,leaky pack,15
+custard apple,freezer,sealed & intact,6
+mishti doi (sweet yogurt),fridge,fresh,15
+carrot,room temperature,near expiry,3
+atta (wheat flour),fridge,discolored,9
+carrot,fridge,overripe,4
+arbi (colocasia),freezer,overripe,1
+aam panna,room temperature,damaged pack,21
+beetroot,freezer,leaky pack,3
+fish,room temperature,fresh,1
+bread,freezer,discolored,1
+muskmelon,freezer,minor defect,4
+cherry,fridge,damaged pack,3
+mango,room temperature,slightly bruised,2
+malai (cream),fridge,damaged pack,9
+methi (fenugreek leaves),fridge,minor defect,3
+kiwi,fridge,minor defect,3
+ghee (clarified butter),freezer,overripe,23
+cauliflower,room temperature,leaky pack,1
+sitaphal,freezer,slightly bruised,4
+brinjal (eggplant),room temperature,sealed & intact,8
+paneer,room temperature,minor defect,2
+lady's finger (okra),room temperature,fresh,9
+bread,freezer,damaged pack,3
+chikoo,fridge,near expiry,2
+sweet lime,freezer,discolored,1
+suran (yam),fridge,sealed & intact,4
+lady's finger (okra),freezer,leaky pack,3
+kheer,freezer,sealed & intact,18
+salt,fridge,leaky pack,1
+plum,fridge,sealed & intact,4
+papaya,fridge,fresh,5
+cabbage,freezer,slightly bruised,14
+spinach,freezer,overripe,1
+atta (wheat flour),freezer,damaged pack,46
+thandai,freezer,overripe,23
+kokum juice,fridge,near expiry,24
+cauliflower,freezer,minor defect,13
+potato,freezer,spoiled,1
+papaya,room temperature,sealed & intact,2
+bathua (chenopodium),freezer,overripe,1
+pineapple,fridge,spoiled,1
+atta (wheat flour),room temperature,fresh,36
+mint leaves,freezer,spoiled,1
+mint leaves,fridge,fresh,5
+milk,freezer,fresh,6
+mulberry,fridge,fresh,5
+apple,fridge,leaky pack,1
+cabbage,room temperature,overripe,2
+chicken,room temperature,fresh,1
+apricot,fridge,discolored,1
+grapes,room temperature,spoiled,1
+banana,room temperature,spoiled,1
+jamun,fridge,minor defect,3
+coriander leaves,room temperature,minor defect,2
+onion,freezer,fresh,19
+jamun,fridge,minor defect,3
+dates (khajur),fridge,spoiled,3
+green chilli,fridge,leaky pack,3
+amla,fridge,minor defect,3
+litchi,room temperature,overripe,1
+beetroot,fridge,overripe,4
+kokum juice,fridge,fresh,60
+apricot,fridge,slightly bruised,3
+cabbage,fridge,minor defect,10
+dahi (yogurt),room temperature,spoiled,1
+pomegranate,fridge,damaged pack,3
+ghee (clarified butter),fridge,minor defect,42
+bread,room temperature,near expiry,1
+salt,fridge,leaky pack,1
+khoya (mawa),freezer,overripe,23
+besan (gram flour),fridge,near expiry,24
+potato,fridge,discolored,2
+apricot,fridge,sealed & intact,4
+mishti doi (sweet yogurt),fridge,discolored,2
+strawberry,freezer,leaky pack,1
+lady's finger (okra),fridge,leaky pack,3
+spinach,fridge,slightly bruised,3
+kiwi,fridge,spoiled,1
+pomegranate,fridge,discolored,1
+beetroot,freezer,discolored,2
+lauki (bottle gourd),freezer,slightly bruised,4
+lassi,freezer,discolored,1
+maida (refined flour),freezer,sealed & intact,74
+bread,fridge,sealed & intact,4
+cabbage,room temperature,minor defect,6
+thandai,freezer,near expiry,31
+rava (semolina),room temperature,slightly bruised,27
+sitaphal,room temperature,discolored,1
+fish,room temperature,fresh,1
+jamun,fridge,leaky pack,1
+potato,freezer,near expiry,7
+thandai,room temperature,slightly bruised,27
+beetroot,room temperature,near expiry,3
+lady's finger (okra),room temperature,leaky pack,1
+chaas (buttermilk),freezer,leaky pack,1
+sitaphal,freezer,leaky pack,1
+chaas (buttermilk),freezer,slightly bruised,4
+pear,room temperature,slightly bruised,2
+guava,freezer,leaky pack,1
+besan (gram flour),room temperature,near expiry,14
+curd,fridge,sealed & intact,4
+blueberry,freezer,near expiry,2
+chikoo,room temperature,near expiry,1
+malai (cream),fridge,minor defect,10
+watermelon,fridge,fresh,5
+apple,fridge,near expiry,2
+lady's finger (okra),freezer,overripe,5
+kokum juice,freezer,minor defect,54
+fish,room temperature,fresh,1
+sitaphal,fridge,slightly bruised,3
+besan (gram flour),freezer,fresh,78
+raspberry,freezer,leaky pack,1
+aam panna,room temperature,damaged pack,21
+lauki (bottle gourd),room temperature,sealed & intact,2
+lauki (bottle gourd),room temperature,spoiled,1
+beetroot,freezer,slightly bruised,14
+coriander leaves,freezer,minor defect,4
+kaddu (pumpkin),freezer,damaged pack,3
+cabbage,fridge,damaged pack,9
+karela (bitter gourd),fridge,damaged pack,3
+apple,room temperature,spoiled,1
+suji (semolina),fridge,slightly bruised,45
+ghee (clarified butter),fridge,overripe,18
+custard apple,fridge,overripe,1
+freshly baked buns,room temperature,spoiled,1
+custard apple,fridge,spoiled,1
+pomegranate,room temperature,near expiry,1
+atta (wheat flour),room temperature,sealed & intact,34
+fish,room temperature,fresh,1
+pomegranate,freezer,leaky pack,1
+apple,fridge,slightly bruised,3
+bread,fridge,discolored,1
+bread,fridge,slightly bruised,3
+kiwi,room temperature,sealed & intact,2
+carrot,room temperature,discolored,1
+mango,fridge,minor defect,3
+grapes,fridge,near expiry,2
+lauki (bottle gourd),freezer,minor defect,4
+kheer,freezer,leaky pack,3
+suran (yam),room temperature,minor defect,2
+atta (wheat flour),freezer,sealed & intact,74
+kaddu (pumpkin),room temperature,slightly bruised,2
+chaas (buttermilk),freezer,near expiry,2
+karela (bitter gourd),room temperature,minor defect,2
+parwal (pointed gourd),freezer,damaged pack,3
+green chilli,room temperature,minor defect,6
+poha (flattened rice),freezer,discolored,11
+chaas (buttermilk),room temperature,leaky pack,1
+ice cream,room temperature,fresh,1
+chaas (buttermilk),room temperature,spoiled,1
+jackfruit,freezer,discolored,1
+tori (ridge gourd),room temperature,overripe,1
+bathua (chenopodium),freezer,spoiled,1
+mango,room temperature,damaged pack,1
+spinach,room temperature,leaky pack,1
+sweet lime,freezer,sealed & intact,6
+tinda (apple gourd),fridge,near expiry,2
+custard apple,fridge,damaged pack,3
+peach,fridge,spoiled,1
+banana,freezer,slightly bruised,4
+rava (semolina),room temperature,discolored,5
+green chilli,freezer,minor defect,13
+sarson (mustard greens),room temperature,spoiled,1
+aam panna,freezer,fresh,78
+guava,room temperature,spoiled,1
+poha (flattened rice),freezer,leaky pack,15
+onion,fridge,leaky pack,3
+beetroot,fridge,overripe,4
+chicken,room temperature,fresh,1
+onion,freezer,leaky pack,3
+khoya (mawa),freezer,sealed & intact,74
+bathua (chenopodium),freezer,leaky pack,1
+muskmelon,freezer,overripe,1
+lady's finger (okra),freezer,overripe,5
+amla,room temperature,spoiled,1
+sweet lime,room temperature,leaky pack,1
+dahi (yogurt),freezer,spoiled,1
+watermelon,room temperature,slightly bruised,2
+coconut,fridge,near expiry,24
+apple,room temperature,leaky pack,1
+spinach,fridge,damaged pack,3
+mulberry,room temperature,damaged pack,1
+potato,fridge,minor defect,10
+karela (bitter gourd),room temperature,leaky pack,1
+onion,room temperature,fresh,9
+blueberry,room temperature,minor defect,2
+cucumber,freezer,fresh,19
+grapes,room temperature,overripe,1
+ice cream,room temperature,fresh,1
+coriander leaves,room temperature,minor defect,2
+lassi,freezer,leaky pack,1
+curd,fridge,overripe,1
+custard apple,room temperature,minor defect,2
+dahi (yogurt),fridge,minor defect,3
+dates (khajur),freezer,minor defect,54
+orange,room temperature,damaged pack,1
+kaddu (pumpkin),freezer,fresh,6
+arbi (colocasia),freezer,discolored,1
+peach,fridge,minor defect,3
+pear,room temperature,damaged pack,1
+malai (cream),room temperature,minor defect,6
+tori (ridge gourd),fridge,overripe,1
+tori (ridge gourd),room temperature,minor defect,2
+watermelon,room temperature,near expiry,1
+spinach,room temperature,fresh,3
+apricot,fridge,sealed & intact,4
+custard apple,freezer,slightly bruised,4
+lauki (bottle gourd),fridge,spoiled,1
+chicken,room temperature,fresh,1
+plum,freezer,damaged pack,3
+cabbage,fridge,overripe,4
+paneer,freezer,spoiled,1
+onion,freezer,near expiry,7
+raspberry,fridge,discolored,1
+curd,freezer,slightly bruised,4
+lady's finger (okra),room temperature,slightly bruised,6
+cucumber,fridge,near expiry,6
+grapes,freezer,minor defect,4
+arbi (colocasia),freezer,spoiled,1
+milk,freezer,spoiled,1
+guava,freezer,near expiry,2
+kiwi,fridge,discolored,1
+lauki (bottle gourd),room temperature,leaky pack,1
+muskmelon,freezer,sealed & intact,6
+atta (wheat flour),freezer,sealed & intact,74
+sitaphal,room temperature,overripe,1
+guava,room temperature,sealed & intact,2
+sweet lime,room temperature,damaged pack,1
+salt,fridge,leaky pack,1
+poha (flattened rice),freezer,leaky pack,15
+suji (semolina),freezer,leaky pack,15
+strawberry,room temperature,minor defect,2
+mint leaves,room temperature,sealed & intact,2
+beetroot,fridge,near expiry,6
+amla,fridge,overripe,1
+maida (refined flour),freezer,minor defect,54
+dates (khajur),fridge,overripe,18
+tori (ridge gourd),fridge,overripe,1
+potato,room temperature,near expiry,3
+dates (khajur),room temperature,discolored,5
+watermelon,freezer,fresh,6
+tomato,fridge,slightly bruised,11
+cabbage,freezer,minor defect,13
+dahi (yogurt),freezer,spoiled,1
+banana,freezer,overripe,1
+amla,fridge,slightly bruised,3
+parwal (pointed gourd),fridge,minor defect,3
+beetroot,room temperature,discolored,1
+rice,freezer,sealed & intact,2
+banana,freezer,leaky pack,1
+freshly baked buns,room temperature,leaky pack,1
+apple,room temperature,overripe,1
+suji (semolina),room temperature,near expiry,14
+mulberry,fridge,spoiled,1
+carrot,fridge,leaky pack,3
+litchi,fridge,spoiled,1
+strawberry,room temperature,discolored,1
+cauliflower,freezer,near expiry,7
+jamun,fridge,near expiry,2
+mulberry,room temperature,damaged pack,1
+chaas (buttermilk),fridge,leaky pack,1
+thandai,room temperature,fresh,36
+malai (cream),freezer,near expiry,7
+thandai,freezer,overripe,23
+guava,fridge,discolored,1
+coconut,room temperature,overripe,10
+bathua (chenopodium),room temperature,damaged pack,1
+malai (cream),room temperature,overripe,2
+ice cream,room temperature,fresh,1
+atta (wheat flour),room temperature,overripe,10
+milk,freezer,fresh,6
+besan (gram flour),fridge,discolored,9
+chaas (buttermilk),fridge,spoiled,1
+pineapple,freezer,minor defect,4
+curd,freezer,discolored,1
+custard apple,freezer,minor defect,4
+amla,room temperature,near expiry,1
+mint leaves,room temperature,near expiry,1
+maida (refined flour),freezer,fresh,78
+rabri,freezer,slightly bruised,14
+blueberry,freezer,spoiled,1
+bread,freezer,slightly bruised,4
+lady's finger (okra),fridge,damaged pack,9
+kokum juice,fridge,damaged pack,36
+kheer,room temperature,overripe,2
+kiwi,room temperature,near expiry,1
+palak (spinach),fridge,near expiry,2
+coconut,freezer,overripe,23
+ice cream,room temperature,fresh,1
+mulberry,room temperature,discolored,1
+suran (yam),room temperature,slightly bruised,2
+apricot,fridge,damaged pack,3
+suji (semolina),fridge,slightly bruised,45
+mishti doi (sweet yogurt),fridge,near expiry,6
+kiwi,freezer,discolored,1
+coconut,room temperature,slightly bruised,27
+onion,freezer,near expiry,7
+pomegranate,room temperature,leaky pack,1
+apricot,room temperature,overripe,1
+spinach,freezer,fresh,6
+jackfruit,freezer,sealed & intact,6
+curd,room temperature,fresh,3
+tinda (apple gourd),fridge,discolored,1
+mint leaves,fridge,near expiry,2
+grapes,fridge,damaged pack,3
+banana,freezer,overripe,1
+watermelon,fridge,discolored,1
+jackfruit,freezer,overripe,1
+ice cream,room temperature,fresh,1
+banana,room temperature,minor defect,2
+apple,room temperature,slightly bruised,2
+lady's finger (okra),room temperature,minor defect,6
+sarson (mustard greens),room temperature,minor defect,2
+kokum juice,fridge,overripe,18
+tinda (apple gourd),room temperature,near expiry,1
+tori (ridge gourd),fridge,minor defect,3
+mango,fridge,leaky pack,1
+onion,room temperature,fresh,9
+green chilli,freezer,sealed & intact,18
+kaddu (pumpkin),room temperature,overripe,1
+malai (cream),fridge,near expiry,6
+kokum juice,fridge,near expiry,24
+bathua (chenopodium),freezer,overripe,1
+pineapple,fridge,discolored,1
+cabbage,freezer,damaged pack,11
+papaya,freezer,fresh,6
+kokum juice,room temperature,slightly bruised,27
+custard apple,fridge,overripe,1
+ice cream,room temperature,fresh,1
+besan (gram flour),room temperature,near expiry,14
+mango,freezer,near expiry,2
+lassi,room temperature,overripe,1
+beetroot,room temperature,leaky pack,1
+aam panna,room temperature,spoiled,1
+kiwi,freezer,damaged pack,3
+atta (wheat flour),room temperature,minor defect,25
+dates (khajur),freezer,near expiry,31
+kheer,room temperature,near expiry,3
+mint leaves,freezer,overripe,1
+besan (gram flour),room temperature,leaky pack,7
+strawberry,room temperature,sealed & intact,2
+kokum juice,freezer,minor defect,54
+rava (semolina),room temperature,spoiled,1
+cabbage,freezer,minor defect,13
+mulberry,room temperature,fresh,3
+carrot,freezer,overripe,5
+ghee (clarified butter),room temperature,damaged pack,21
+sarson (mustard greens),fridge,damaged pack,3
+fish,room temperature,fresh,1
+mint leaves,room temperature,slightly bruised,2
+bathua (chenopodium),fridge,leaky pack,1
+rava (semolina),fridge,damaged pack,36
+karela (bitter gourd),freezer,damaged pack,3
+milk,room temperature,near expiry,1
+dates (khajur),freezer,minor defect,54
+spinach,room temperature,leaky pack,1
+ghee (clarified butter),room temperature,overripe,10
+apricot,fridge,discolored,1
+atta (wheat flour),fridge,near expiry,24
+mulberry,freezer,slightly bruised,4
+jackfruit,fridge,slightly bruised,3
+bathua (chenopodium),fridge,near expiry,2
+peach,fridge,sealed & intact,4
+mishti doi (sweet yogurt),room temperature,sealed & intact,8
+raspberry,room temperature,damaged pack,1
+beetroot,freezer,minor defect,13
+maida (refined flour),freezer,damaged pack,46
+orange,fridge,slightly bruised,3
+fish,room temperature,fresh,1
+ghee (clarified butter),freezer,spoiled,3
+sarson (mustard greens),freezer,damaged pack,3
+mulberry,room temperature,near expiry,1
+rava (semolina),room temperature,fresh,36
+onion,room temperature,leaky pack,1
+lady's finger (okra),fridge,overripe,4
+freshly baked buns,freezer,near expiry,2
+sweet lime,room temperature,near expiry,1
+rava (semolina),room temperature,spoiled,1
+kinnow,room temperature,slightly bruised,2
+cabbage,room temperature,discolored,1
+coriander leaves,freezer,near expiry,2
+parwal (pointed gourd),fridge,minor defect,3
+watermelon,fridge,discolored,1
+malai (cream),freezer,overripe,5
+coconut,fridge,discolored,9
+coriander leaves,fridge,spoiled,1
+kaddu (pumpkin),room temperature,damaged pack,1
+methi (fenugreek leaves),fridge,fresh,5
+rice,freezer,sealed & intact,2
+bathua (chenopodium),fridge,discolored,1
+cherry,freezer,damaged pack,3
+tinda (apple gourd),room temperature,sealed & intact,2
+lassi,fridge,spoiled,1
+thandai,freezer,sealed & intact,74
+cauliflower,freezer,near expiry,7
+orange,room temperature,overripe,1
+parwal (pointed gourd),freezer,sealed & intact,6
+paneer,room temperature,slightly bruised,2
+aam panna,fridge,minor defect,42
+khoya (mawa),room temperature,slightly bruised,27
+arbi (colocasia),fridge,near expiry,2
+brinjal (eggplant),fridge,overripe,4
+raspberry,freezer,near expiry,2
+cucumber,room temperature,sealed & intact,8
+guava,freezer,spoiled,1
+banana,fridge,discolored,1
+khoya (mawa),room temperature,discolored,5
+custard apple,freezer,slightly bruised,4
+salt,fridge,leaky pack,1
+chaas (buttermilk),freezer,minor defect,4
+paneer,fridge,fresh,5
+palak (spinach),room temperature,overripe,1
+paneer,fridge,spoiled,1
+brinjal (eggplant),fridge,minor defect,10
+rava (semolina),room temperature,leaky pack,7
+lassi,freezer,damaged pack,3
+lassi,freezer,slightly bruised,4
+dahi (yogurt),freezer,minor defect,4
+watermelon,fridge,sealed & intact,4
+potato,room temperature,overripe,2
+cabbage,room temperature,slightly bruised,6
+raspberry,freezer,sealed & intact,6
+mishti doi (sweet yogurt),room temperature,near expiry,3
+green chilli,fridge,overripe,4
+tinda (apple gourd),freezer,spoiled,1
+sweet lime,freezer,fresh,6
+malai (cream),room temperature,spoiled,1
+thandai,freezer,spoiled,3
+ice cream,room temperature,fresh,1
+kokum juice,fridge,discolored,9
+potato,fridge,sealed & intact,14
+aam panna,freezer,fresh,78
+watermelon,fridge,damaged pack,3
+apricot,room temperature,damaged pack,1
+paneer,freezer,fresh,6
+thandai,fridge,sealed & intact,57
+cabbage,freezer,sealed & intact,18
+plum,fridge,near expiry,2
+malai (cream),fridge,minor defect,10
+cauliflower,fridge,slightly bruised,11
+banana,room temperature,sealed & intact,2
+mango,freezer,slightly bruised,4
+amla,freezer,spoiled,1
+rabri,fridge,leaky pack,3
+chaas (buttermilk),room temperature,fresh,3
+mishti doi (sweet yogurt),room temperature,minor defect,6
+muskmelon,freezer,slightly bruised,4
+dahi (yogurt),freezer,overripe,1
+ice cream,room temperature,fresh,1
+spinach,room temperature,discolored,1
+aam panna,fridge,damaged pack,36
+watermelon,freezer,discolored,1
+kokum juice,freezer,sealed & intact,74
+ghee (clarified butter),freezer,leaky pack,15
+parwal (pointed gourd),room temperature,leaky pack,1
+curd,room temperature,slightly bruised,2
+paneer,freezer,leaky pack,1
+potato,room temperature,overripe,2
+mulberry,room temperature,sealed & intact,2
+rava (semolina),room temperature,minor defect,25
+jamun,room temperature,minor defect,2
+carrot,freezer,near expiry,7
+raspberry,fridge,overripe,1
+atta (wheat flour),fridge,slightly bruised,45
+tinda (apple gourd),room temperature,slightly bruised,2
+raspberry,fridge,leaky pack,1
+mishti doi (sweet yogurt),freezer,leaky pack,3
+khoya (mawa),room temperature,slightly bruised,27
