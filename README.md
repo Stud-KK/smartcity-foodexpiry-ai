@@ -35,6 +35,9 @@ An AI-powered, full-stack platform that:
 5. **If an item has expired, receive eco-friendly suggestions** such as using it as compost or fertilizer  
 6. **Track inventory health** with insightful reports  
 7. **Automatically generate grocery lists** to replenish essentials without overbuying
+8. **Voice scan integration:**  
+Hands-free addition of items via speech-to-text, reducing manual input errors and speeding up inventory management.
+
 
 ## Tech Stack
 
@@ -47,15 +50,7 @@ An AI-powered, full-stack platform that:
 
 ---
 
-## 🧪 How It Works
 
-1. **Add items** manually, via barcode, or voice  
-2. **AI predicts expiry** (for fruits, veggies, non-labeled items)  
-3. **Receive alerts** via SMS before items expire  
-4. **Get recipe ideas** or suggestions to compost/donate  
-5. **Track inventory health** with insightful reports
-
----
 
 ## 📸 App working flow
 ![image](https://github.com/user-attachments/assets/74ff6b09-b8df-4a6f-822b-474915894e74)
