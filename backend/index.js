@@ -17,7 +17,11 @@ const edamamRoutes = require('./routes/edamamRoutes');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://smartcity-foodexpiry-1v6xk1lrc-komal-kalshettis-projects.vercel.app',
+  credentials: true
+}));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
