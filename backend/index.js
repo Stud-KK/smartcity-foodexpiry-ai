@@ -23,7 +23,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/foodwise")
+//mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/foodwise")
+mongoose.connect(process.env.MONGO_URI)
+
   .then(() => {
     console.log('MongoDB Connected');
     // Initialize the notification scheduler after DB connection
