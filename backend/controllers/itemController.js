@@ -37,7 +37,7 @@ exports.addItem = async (req, res) => {
     if (!expiryDate && name) {
       try {
         // Call Flask ML API for prediction
-        const mlResponse = await axios.post('http://localhost:5000/predict', {
+        const mlResponse = await axios.post(`${mlApiUrl}/predict`, {
           product_name: name,
           storage_condition: storage_condition || 'fridge',
                     item_condition_on_purchase: item_condition_on_purchase || 'fresh'
@@ -115,7 +115,7 @@ exports.updateItem = async (req, res) => {
     if (name && name !== existingItem.name && !expiryDate) {
       try {
         // Call Flask ML API for prediction
-        const mlResponse = await axios.post('http://localhost:5000/predict', {
+        const mlResponse = await axios.post(`${mlApiUrl}/predict`, {
           product_name: name,
           storage_condition: storage_condition || existingItem.storage_condition,
           item_condition_on_purchase: item_condition_on_purchase || existingItem.item_condition_on_purchase
@@ -185,7 +185,7 @@ exports.predictExpiry = async (req, res) => {
     }
 
     // Call Flask ML API
-    const mlResponse = await axios.post('http://localhost:5000/predict', {
+    const mlResponse = await axios.post(`${mlApiUrl}/predict`, {
       product_name,
       storage_condition: storage_condition || 'fridge',
       item_condition_on_purchase: item_condition_on_purchase || 'fresh'
