@@ -11,6 +11,7 @@ export default function VoiceScan() {
   const [predictedDays, setPredictedDays] = useState(null);
   const [predictedExpiryDate, setPredictedExpiryDate] = useState('');
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
   const [formData, setFormData] = useState({
     name: '',
     storage: '',
@@ -231,7 +232,7 @@ export default function VoiceScan() {
       console.log('Sending prediction request with data:', JSON.stringify(requestData, null, 2));
       setStatus(`🔮 Getting prediction for: "${requestData.product_name}"`);
 
-      const res = await axios.post('http://localhost:3002/api/items/predict-expiry', requestData, {
+      const res = await axios.post('${backendBaseURL}/api/items/predict-expiry', requestData, {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json'
@@ -300,7 +301,7 @@ export default function VoiceScan() {
       console.log('Testing API with data:', testData);
       setStatus('🔬 Testing API connection...');
       
-      const response = await axios.post('http://localhost:3002/api/items/predict-expiry', 
+      const response = await axios.post('${backendBaseURL}/api/items/predict-expiry', 
         testData, 
         {
           headers: {
@@ -348,7 +349,7 @@ export default function VoiceScan() {
 
       console.log('Saving item with data:', newItem);
       
-      const res = await axios.post('http://localhost:3002/api/items', newItem, {
+      const res = await axios.post('${backendBaseURL}/api/items', newItem, {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json'

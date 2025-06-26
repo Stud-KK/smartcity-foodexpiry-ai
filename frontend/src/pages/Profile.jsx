@@ -13,6 +13,7 @@ const Profile = () => {
     bio: ''
   });
   const [loading, setLoading] = useState(true);
+  
   const [updating, setUpdating] = useState(false);
   const [uploadingImage, setUploadingImage] = useState(false);
   const [error, setError] = useState(null);
@@ -22,7 +23,7 @@ const Profile = () => {
   const navigate = useNavigate();
   
   // Base API URL constant to ensure consistency
-  const API_BASE_URL = 'http://localhost:3002';
+  const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
   // Fetch user data on component mount
   useEffect(() => {

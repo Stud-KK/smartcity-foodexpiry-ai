@@ -32,6 +32,7 @@ const RestaurantDashboard = () => {
   const [editItemCondition, setEditItemCondition] = useState('');
   const [isLoadingEditPrediction, setIsLoadingEditPrediction] = useState(false);
   const [editPredictionMsg, setEditPredictionMsg] = useState('');
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
 
   // New item form data
   const [newItem, setNewItem] = useState({
@@ -84,7 +85,7 @@ const RestaurantDashboard = () => {
   const fetchItems = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('http://localhost:3002/api/items', {
+      const res = await axios.get('${backendBaseURL}/api/items', {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -103,7 +104,7 @@ const RestaurantDashboard = () => {
     try {
       // Replace with your actual prediction API endpoint
       const token = localStorage.getItem('token');
-      const res = await axios.post('http://localhost:3002/api/predict', 
+      const res = await axios.post('${backendBaseURL}/api/predict', 
         { 
           name: newItem.name,
           condition: itemCondition,
@@ -141,7 +142,7 @@ const RestaurantDashboard = () => {
     try {
       // Replace with your actual prediction API endpoint
       const token = localStorage.getItem('token');
-      const res = await axios.post('http://localhost:3002/api/predict', 
+      const res = await axios.post('${backendBaseURL}/api/predict', 
         { 
           name: editItem.name,
           condition: editItemCondition,
@@ -182,7 +183,7 @@ const RestaurantDashboard = () => {
         itemCondition
       };
       
-      await axios.post('http://localhost:3002/api/items', itemToAdd, {
+      await axios.post('${backendBaseURL}/api/items', itemToAdd, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -237,7 +238,7 @@ const RestaurantDashboard = () => {
         itemCondition: editItemCondition
       };
       
-      await axios.put(`http://localhost:3002/api/items/${editItem._id}`, itemToUpdate, {
+      await axios.put(`${backendBaseURL}/api/items/${editItem._id}`, itemToUpdate, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -257,7 +258,7 @@ const RestaurantDashboard = () => {
     if (!window.confirm('Are you sure you want to remove this item?')) return;
     try {
       const token = localStorage.getItem('token');
-      await axios.delete(`http://localhost:3002/api/items/${id}`, {
+      await axios.delete(`${backendBaseURL}/api/items/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }

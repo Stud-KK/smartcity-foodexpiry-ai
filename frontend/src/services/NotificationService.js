@@ -2,8 +2,9 @@
 import axios from 'axios';
 
 class NotificationService {
+  
   constructor() {
-    this.apiUrl = 'http://localhost:3002/api';
+    this.apiUrl =import.meta.env.VITE_BACKEND_URL;;
     this.token = localStorage.getItem('token');
   }
 

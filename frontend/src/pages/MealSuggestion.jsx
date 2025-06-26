@@ -12,6 +12,7 @@ const MealSuggestion = () => {
   const [mealPreference, setMealPreference] = useState('any');
   const [mealComplexity, setMealComplexity] = useState('easy');
   const [preparationTime, setPreparationTime] = useState('30');
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
 
   // Fetch items on component mount
   useEffect(() => {
@@ -22,7 +23,7 @@ const MealSuggestion = () => {
     try {
       setLoading(true);
       const token = localStorage.getItem('token');
-      const res = await axios.get('http://localhost:3002/api/items', {
+      const res = await axios.get('${backendBaseURL}/api/items', {
         headers: {
           Authorization: `Bearer ${token}`
         }

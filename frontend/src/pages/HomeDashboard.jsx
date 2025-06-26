@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 
+
 const HomeDashboard = () => {
   const navigate = useNavigate();
-  
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
   // State for items and UI
   const [items, setItems] = useState([]);
   const [showAddModal, setShowAddModal] = useState(false);
@@ -46,6 +47,7 @@ const HomeDashboard = () => {
   const [isLoadingEditPrediction, setIsLoadingEditPrediction] = useState(false);
   const [editPredictionMsg, setEditPredictionMsg] = useState('');
 
+
   // Tips
   const [tips] = useState([
     'Store fruits and vegetables properly to extend freshness',
@@ -62,7 +64,7 @@ const HomeDashboard = () => {
   const fetchItems = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('http://localhost:3002/api/items', {
+      const res = await axios.get('${backendBaseURL}/api/items', {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -85,7 +87,7 @@ const HomeDashboard = () => {
     
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.post('http://localhost:3002/api/items/predict-expiry', {
+      const res = await axios.post('${backendBaseURL}/api/items/predict-expiry', {
         product_name: newItem.name,
         storage_condition: storageCondition,
         item_condition_on_purchase: itemCondition
@@ -122,7 +124,7 @@ const HomeDashboard = () => {
     
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.post('http://localhost:3002/api/items/predict-expiry', {
+      const res = await axios.post('${backendBaseURL}/api/items/predict-expiry', {
         product_name: editItem.name,
         storage_condition: editStorageCondition,
         item_condition_on_purchase: editItemCondition
@@ -160,7 +162,7 @@ const HomeDashboard = () => {
       };
       
       const token = localStorage.getItem('token');
-      await axios.post('http://localhost:3002/api/items', itemToSubmit, {
+      await axios.post('${backendBaseURL}/api/items', itemToSubmit, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -212,7 +214,7 @@ const HomeDashboard = () => {
     try {
       const token = localStorage.getItem('token');
       // Include the storage and item condition fields in the update
-      await axios.put(`http://localhost:3002/api/items/${editItem._id}`, {
+      await axios.put(`${backendBaseURL}/api/items/${editItem._id}`, {
         ...editItem,
         storageCondition: editStorageCondition,
         itemCondition: editItemCondition
@@ -234,7 +236,7 @@ const HomeDashboard = () => {
     if (!window.confirm('Are you sure you want to remove this item?')) return;
     try {
       const token = localStorage.getItem('token');
-      await axios.delete(`http://localhost:3002/api/items/${id}`, {
+      await axios.delete(`${backendBaseURL}/api/items/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }

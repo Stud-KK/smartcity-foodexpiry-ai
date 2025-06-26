@@ -7,6 +7,7 @@ import toast from 'react-hot-toast';
 const NotificationSettings = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
   const [saving, setSaving] = useState(false);
   const [testing, setTesting] = useState(false);
   const [userProfile, setUserProfile] = useState({
@@ -35,7 +36,7 @@ const NotificationSettings = () => {
         }
 
         // Fetch user profile to get mobile number and email
-        const userResponse = await fetch('http://localhost:3002/api/users/profile', {
+        const userResponse = await fetch('${backendBaseURL}/api/users/profile', {
           headers: {
             Authorization: `Bearer ${token}`
           }

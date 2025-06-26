@@ -6,6 +6,8 @@ export default function InventoryReport() {
   const [inventoryData, setInventoryData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
+
   const [dashboardStats, setDashboardStats] = useState({
     categoryData: [],
     statusData: [],
@@ -84,7 +86,7 @@ export default function InventoryReport() {
       try {
         setLoading(true);
         const token = localStorage.getItem('token');
-        const res = await axios.get('http://localhost:3002/api/items', {
+        const res = await axios.get('${backendBaseURL}/api/items', {
           headers: {
             Authorization: `Bearer ${token}`
           }

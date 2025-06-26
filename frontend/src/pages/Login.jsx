@@ -12,6 +12,7 @@ const Login = () => {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
   const { login } = useAuth(); // using auth context to update state
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,7 +25,7 @@ const Login = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post('http://localhost:3002/api/users/login', credentials);
+      const response = await axios.post('${backendBaseURL}/api/users/login', credentials);
      
       // Save token and user details in localStorage
       localStorage.setItem('token', response.data.token);

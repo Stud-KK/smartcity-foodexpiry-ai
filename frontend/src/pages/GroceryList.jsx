@@ -7,6 +7,7 @@ export default function GroceryList() {
   const [customItem, setCustomItem] = useState("");
   const [suggestedItems, setSuggestedItems] = useState([]);
   const [finalList, setFinalList] = useState([]);
+const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
 
   const COMMON_INGREDIENTS = ["Salt", "Sugar", "Onion", "Tomato", "Oil", "Rice", "Flour"];
 
@@ -14,7 +15,7 @@ export default function GroceryList() {
     const fetchInventory = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await axios.get("http://localhost:3002/api/items", {
+        const res = await axios.get(`${backendBaseURL}/api/items`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },

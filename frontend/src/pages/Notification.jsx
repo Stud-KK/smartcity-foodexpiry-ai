@@ -6,6 +6,7 @@ import { useNotifications } from '../context/NotificationContext';
 
 const Notification = () => {
   const navigate = useNavigate();
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
   const { refreshNotifications } = useNotifications();
   const [settings, setSettings] = useState({
     emailNotifications: true,
@@ -39,14 +40,14 @@ const Notification = () => {
         }
 
         // Get user notification settings
-        const response = await axios.get('http://localhost:3002/api/users/notification-settings', {
+        const response = await axios.get('${backendBaseURL}/api/users/notification-settings', {
           headers: {
             Authorization: `Bearer ${token}`
           }
         });
 
         // Get user profile to check mobile and email
-        const profileResponse = await axios.get('http://localhost:3002/api/users/profile', {
+        const profileResponse = await axios.get('${backendBaseURL}/api/users/profile', {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -107,7 +108,7 @@ const Notification = () => {
 
       // Submit notification settings
       await axios.post(
-        'http://localhost:3002/api/users/notification-settings',
+        '${backendBaseURL}/api/users/notification-settings',
         settings,
         {
           headers: {
@@ -142,7 +143,7 @@ const Notification = () => {
       }
 
       await axios.post(
-        'http://localhost:3002/api/users/send-test-notification',
+        '${backendBaseURL}/api/users/send-test-notification',
         { type },
         {
           headers: {

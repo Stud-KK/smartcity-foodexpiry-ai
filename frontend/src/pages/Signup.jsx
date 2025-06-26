@@ -13,6 +13,7 @@ const Signup = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const navigate = useNavigate();
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -32,7 +33,7 @@ const Signup = () => {
     setError(null);
 
     try {
-      const response = await axios.post('http://localhost:3002/api/users/register', {
+      const response = await axios.post('${backendBaseURL}/api/users/register', {
         name: userData.name,
         email: userData.email,
         password: userData.password,
