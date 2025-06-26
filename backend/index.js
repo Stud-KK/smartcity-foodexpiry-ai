@@ -24,7 +24,13 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Connect to MongoDB
 //mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/foodwise")
-mongoose.connect(process.env.MONGO_URI)
+const mongoUri = process.env.MONGO_URI;
+if (!mongoUri) {
+  console.error('❌ MONGO_URI not set in environment variables.');
+  process.exit(1);
+}
+mongoose.connect(mongoUri)
+
 
   .then(() => {
     console.log('MongoDB Connected');
