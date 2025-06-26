@@ -33,7 +33,7 @@ const Signup = () => {
     setError(null);
 
     try {
-      const response = await axios.post('${backendBaseURL}/api/users/register', {
+      const response = await axios.post(`${backendBaseURL}/api/users/register`, {
         name: userData.name,
         email: userData.email,
         password: userData.password,

@@ -25,7 +25,7 @@ const Login = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post('${backendBaseURL}/api/users/login', credentials);
+      const response = await axios.post(`${backendBaseURL}/api/users/login`, credentials);
      
       // Save token and user details in localStorage
       localStorage.setItem('token', response.data.token);

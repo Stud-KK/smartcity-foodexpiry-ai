@@ -36,7 +36,7 @@ const NotificationSettings = () => {
         }
 
         // Fetch user profile to get mobile number and email
-        const userResponse = await fetch('${backendBaseURL}/api/users/profile', {
+        const userResponse = await fetch(`${backendBaseURL}/api/users/profile`, {
           headers: {
             Authorization: `Bearer ${token}`
           }

@@ -85,7 +85,7 @@ const RestaurantDashboard = () => {
   const fetchItems = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('${backendBaseURL}/api/items', {
+      const res = await axios.get(`${backendBaseURL}/api/items`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -104,7 +104,7 @@ const RestaurantDashboard = () => {
     try {
       // Replace with your actual prediction API endpoint
       const token = localStorage.getItem('token');
-      const res = await axios.post('${backendBaseURL}/api/predict', 
+      const res = await axios.post(`${backendBaseURL}/api/predict`, 
         { 
           name: newItem.name,
           condition: itemCondition,
@@ -142,7 +142,7 @@ const RestaurantDashboard = () => {
     try {
       // Replace with your actual prediction API endpoint
       const token = localStorage.getItem('token');
-      const res = await axios.post('${backendBaseURL}/api/predict', 
+      const res = await axios.post(`${backendBaseURL}/api/predict`, 
         { 
           name: editItem.name,
           condition: editItemCondition,
@@ -183,7 +183,7 @@ const RestaurantDashboard = () => {
         itemCondition
       };
       
-      await axios.post('${backendBaseURL}/api/items', itemToAdd, {
+      await axios.post(`${backendBaseURL}/api/items`, itemToAdd, {
         headers: {
           Authorization: `Bearer ${token}`
         }

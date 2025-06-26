@@ -64,7 +64,7 @@ const HomeDashboard = () => {
   const fetchItems = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('${backendBaseURL}/api/items', {
+      const res = await axios.get(`${backendBaseURL}/api/items`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -87,7 +87,7 @@ const HomeDashboard = () => {
     
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.post('${backendBaseURL}/api/items/predict-expiry', {
+      const res = await axios.post(`${backendBaseURL}/api/items/predict-expiry`, {
         product_name: newItem.name,
         storage_condition: storageCondition,
         item_condition_on_purchase: itemCondition
@@ -124,7 +124,7 @@ const HomeDashboard = () => {
     
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.post('${backendBaseURL}/api/items/predict-expiry', {
+      const res = await axios.post(`${backendBaseURL}/api/items/predict-expiry`, {
         product_name: editItem.name,
         storage_condition: editStorageCondition,
         item_condition_on_purchase: editItemCondition
@@ -162,7 +162,7 @@ const HomeDashboard = () => {
       };
       
       const token = localStorage.getItem('token');
-      await axios.post('${backendBaseURL}/api/items', itemToSubmit, {
+      await axios.post(`${backendBaseURL}/api/items`, itemToSubmit, {
         headers: {
           Authorization: `Bearer ${token}`
         }

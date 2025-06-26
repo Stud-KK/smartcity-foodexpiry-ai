@@ -23,7 +23,7 @@ const MealSuggestion = () => {
     try {
       setLoading(true);
       const token = localStorage.getItem('token');
-      const res = await axios.get('${backendBaseURL}/api/items', {
+      const res = await axios.get(`${backendBaseURL}/api/items`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
