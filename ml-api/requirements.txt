@@ -4,6 +4,7 @@ pandas
 numpy
 requests
 joblib
+gunicorn
 #mimesis
 #xgboost
 #catboost==1.2
