@@ -6,5 +6,5 @@ requests
 joblib
 gunicorn
 #mimesis
-#xgboost
+xgboost
 #catboost==1.2
