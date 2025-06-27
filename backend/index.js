@@ -17,11 +17,20 @@ const edamamRoutes = require('./routes/edamamRoutes');
 const app = express();
 
 // Middleware
-app.use(cors({
-  origin: ['https://smartcity-foodexpiry-ai.vercel.app', 
-  'https://smartcity-foodexpiry-1v6xk1lrc-komal-kalshettis-projects.vercel.app'],
-  credentials: true
-}));
+const corsOptions = {
+  origin: [
+    'https://smartcity-foodexpiry-ai.vercel.app',
+    'https://smartcity-foodexpiry-1v6xk1lrc-komal-kalshettis-projects.vercel.app'
+  ],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
+
+// Enable preflight response for all routes
+app.options('*', cors(corsOptions));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
