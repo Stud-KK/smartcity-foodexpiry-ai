@@ -9,6 +9,7 @@ export default function BarcodeAndExpiryDateScan() {
   const [scanning, setScanning] = useState(false);
   const [status, setStatus] = useState('');
   const [success, setSuccess] = useState(false);
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
   const [extractedInfo, setExtractedInfo] = useState({
     barcode: '',
     expiryDate: '',
@@ -63,7 +64,7 @@ export default function BarcodeAndExpiryDateScan() {
       const token = localStorage.getItem('token');
       
       // Send image to backend for processing
-      const res = await axios.post('http://localhost:3002/api/scan/extract-info', formData, {
+      const res = await axios.post('${backendBaseURL}/api/scan/extract-info', formData, {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'multipart/form-data',
@@ -124,7 +125,7 @@ export default function BarcodeAndExpiryDateScan() {
         notes: extractedInfo.barcode ? `Barcode: ${extractedInfo.barcode}` : '',
       };
 
-      const res = await axios.post('http://localhost:3002/api/items', newItem, {
+      const res = await axios.post('${backendBaseURL}/api/items', newItem, {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json'

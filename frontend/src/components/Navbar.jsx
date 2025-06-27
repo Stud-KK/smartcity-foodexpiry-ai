@@ -17,6 +17,7 @@ export const useNotifications = () => React.useContext(NotificationContext);
 export const NotificationProvider = ({ children }) => {
   const [notifications, setNotifications] = useState([]);
   const [unreadCount, setUnreadCount] = useState(0);
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
   const { isLoggedIn } = useAuth();
   
   // Function to fetch notifications from API
@@ -25,7 +26,7 @@ export const NotificationProvider = ({ children }) => {
     
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('http://localhost:3002/api/items', {
+      const res = await axios.get('${backendBaseURL}/api/items', {
         headers: {
           Authorization: `Bearer ${token}`
         }

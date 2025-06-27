@@ -18,6 +18,7 @@ export const useNotifications = () => React.useContext(NotificationContext);
 export const NotificationProvider = ({ children }) => {
   const [notifications, setNotifications] = useState([]);
   const [unreadCount, setUnreadCount] = useState(0);
+  const backendBaseURL = import.meta.env.VITE_BACKEND_URL;
   const [notificationSettings, setNotificationSettings] = useState({
     emailNotifications: true,
     smsNotifications: false,
@@ -33,7 +34,7 @@ export const NotificationProvider = ({ children }) => {
     
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('http://localhost:3002/api/items', {
+      const res = await axios.get('${backendBaseURL}/api/items', {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -128,7 +129,7 @@ export const NotificationProvider = ({ children }) => {
     try {
       const token = localStorage.getItem('token');
       await axios.post(
-        'http://localhost:3002/api/users/send-notifications',
+        '${backendBaseURL}/api/users/send-notifications',
         {
           notifications: unreadNotifications,
           channels: {
@@ -172,7 +173,7 @@ export const NotificationProvider = ({ children }) => {
       
       try {
         const token = localStorage.getItem('token');
-        const response = await axios.get('http://localhost:3002/api/users/notification-settings', {
+        const response = await axios.get('${backendBaseURL}/api/users/notification-settings', {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -202,7 +203,7 @@ export const NotificationProvider = ({ children }) => {
     try {
       const token = localStorage.getItem('token');
       await axios.post(
-        'http://localhost:3002/api/users/notification-settings',
+        '${backendBaseURL}/api/users/notification-settings',
         settings,
         {
           headers: {
