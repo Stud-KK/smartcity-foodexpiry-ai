@@ -18,7 +18,8 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://smartcity-foodexpiry-1v6xk1lrc-komal-kalshettis-projects.vercel.app',
+  origin: ['https://smartcity-foodexpiry-ai.vercel.app', 
+  'https://smartcity-foodexpiry-1v6xk1lrc-komal-kalshettis-projects.vercel.app'],
   credentials: true
 }));
 
