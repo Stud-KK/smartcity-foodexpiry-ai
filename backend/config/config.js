@@ -9,7 +9,7 @@ if (process.env.NODE_ENV !== 'production') {
     NODE_ENV: process.env.NODE_ENV || 'development',
     
     // MongoDB configuration
-    MONGODB_URI: process.env.MONGODB_URI || 'mongodb://localhost:27017/foodwise',
+    MONGODB_URI: process.env.MONGODB_URI ,
     
     // JWT configuration
     JWT_SECRET: process.env.JWT_SECRET || 'your_jwt_secret',
