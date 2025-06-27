@@ -1,6 +1,6 @@
 const Item = require('../models/Item');
 const axios = require('axios');
-const mlApiUrl = process.env.VITE_ML_API_URL;
+const mlApiUrl = process.env.ML_API_URL;
 
 // Get all items for a user
 exports.getItems = async (req, res) => {
