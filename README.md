@@ -1,46 +1,31 @@
-<<<<<<< HEAD
+
 
 # 🌆 SmartCity Food Expiry AI 
-=======
-# smartcity-foodexpiry-ai
 
-# 🌆SmartCity Food Expiry AI 
->>>>>>> d7f17cff9cf1670a9060734355dfc5a48849236a
 
 **Revolutionizing food sustainability in smart cities with AI-powered expiry prediction, inventory alerts, and smart suggestions.**
 
----
 
-<<<<<<< HEAD
 ## 🚀 Why This Matters
-=======
-##  Why This Matters
->>>>>>> d7f17cff9cf1670a9060734355dfc5a48849236a
+
 
 💡 **One-third of all food produced globally is wasted** — a problem we address using AI.  
 Our system empowers individuals, restaurants, and smart homes to manage food efficiently, reduce waste, and save money — all from a single app.
 
----
 
-<<<<<<< HEAD
 ## 🧠 What We Built
-=======
-## What We Built
->>>>>>> d7f17cff9cf1670a9060734355dfc5a48849236a
+
 
 An AI-powered, full-stack platform that:
 
 ✅ **Predicts expiry** of unpackaged or unlabeled foods using machine learning  
-<<<<<<< HEAD
-=======
+
 ✅ **Voice scan integration** for hands-free item addition via speech-to-text
->>>>>>> d7f17cff9cf1670a9060734355dfc5a48849236a
+
 📲 **Sends SMS alerts** before items go bad (Twilio Integration)  
 🍽️ **Recommends recipes** based on expiring ingredients  
 📊 **Generates inventory reports** and eco-friendly suggestions
 
-<<<<<<< HEAD
----
 
 ## 📁 Tech Stack
 =======
@@ -61,7 +46,7 @@ Hands-free addition of items via speech-to-text, reducing manual input errors an
 
 
 ## Tech Stack
->>>>>>> d7f17cff9cf1670a9060734355dfc5a48849236a
+
 
 | Layer       | Tools & Tech                                                                 |
 |-------------|------------------------------------------------------------------------------|
@@ -70,9 +55,7 @@ Hands-free addition of items via speech-to-text, reducing manual input errors an
 | ML API      | Python, Flask, XGBoost                                                       |
 | Integrations| Twilio (SMS), Edamam API (Nutrition & Recipe Suggestions)                    |
 
----
 
-<<<<<<< HEAD
 ## 🧪 How It Works
 
 1. **Add items** manually, via barcode, or voice  
@@ -87,8 +70,6 @@ Hands-free addition of items via speech-to-text, reducing manual input errors an
 
 
 ## 🧰 Project Structure
-=======
-
 
 ## 📸 App working flow
 ![image](https://github.com/user-attachments/assets/74ff6b09-b8df-4a6f-822b-474915894e74)
@@ -138,33 +119,26 @@ python app.py
 * ✔️ Smart dashboard with voice, barcode, and SMS support
 * ✔️ Optimized for smart homes, restaurants, and eco-conscious users
 
----
 
-<<<<<<< HEAD
 ## 🧑‍💻 Team & Credits
 
 
 1.GitHub: [@Stud-KK](https://github.com/Stud-KK)
-=======
+
+
 ## Team & Credits
 
 
 1.Komal Kalshetti
->>>>>>> d7f17cff9cf1670a9060734355dfc5a48849236a
 2.Sanjana Mutkiri
 3.Aishwarya Kalshetti
 
----
 
-<<<<<<< HEAD
 ## 📃 License
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-=======
 
->>>>>>> d7f17cff9cf1670a9060734355dfc5a48849236a
 
 ## 🌱 Join the Mission
 
